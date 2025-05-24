@@ -41,7 +41,7 @@ The **[GitHub](https://github.com/Exquzor/contact-list-app/)** repository is use
 
 ## Used resources
 
-- Programming languages: C#, TypeScript, JavaScript, HTML (with CSS), SQL;
+- Programming languages: C#, TypeScript, JavaScript, HTML (with CSS);
 - **[Visual Studio](https://visualstudio.microsoft.com/pl/vs/)** - IDE;
 - **[Angular](https://angular.dev/)** - TypeScript-based free and open-source single-page web application framework;
 - Backend Libraries:
