@@ -35,14 +35,13 @@ The frontend was developed using Angular.
 
 ## Repository
 
-The **[GitLab](https://github.com/Exquzor/contact-list-app/)** repository is used for showcasing the project and further development and version control.
+The **[GitHub](https://github.com/Exquzor/contact-list-app/)** repository is used for showcasing the project and further development and version control.
 
 <a name="used-resources"></a>
 
 ## Used resources
 
 - Programming languages: C#, TypeScript, JavaScript, HTML (with CSS), SQL;
-- **[GitLab](https://about.gitlab.com/)** - source code repository;
 - **[Visual Studio Code](https://code.visualstudio.com/)** - source code editor;
 - **[Angular](https://angular.dev/)** - TypeScript-based free and open-source single-page web application framework;
 - Backend Libraries:
