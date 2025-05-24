@@ -1,0 +1,34 @@
+<div class="contact-details-container">
+  <h2>Contact Details</h2>
+  <button class="back" (click)="goBack()">Back to contacts</button>
+  <div *ngIf="contact" class="contact-info">
+    <div>
+      <strong>First Name:</strong> {{ contact.firstName }}
+    </div>
+    <div>
+      <strong>Last Name:</strong> {{ contact.lastName }}
+    </div>
+    <div>
+      <strong>Email:</strong> {{ contact.email }}
+    </div>
+    <div>
+      <strong>Phone:</strong> {{ contact.phoneNumber }}
+    </div>
+    <div>
+      <strong>Category:</strong> {{ category?.name }}
+    </div>
+    <div *ngIf="contact.categoryId == 1 || contact.categoryId == 3">
+      <strong>Subcategory:</strong> {{ subcategory?.name }}
+    </div>
+    <div *ngIf="contact.categoryId == 2">
+      <strong>Subcategory:</strong> ---
+    </div>
+    <div>
+      <strong>Birth Date:</strong> {{ contact.birthDate | date }}
+    </div>
+  </div>
+  <div class="contact-actions">
+    <button *ngIf="loggedIn" class="edit" (click)="editContact(contact.id)">Edit</button>
+    <button *ngIf="loggedIn" class="delete" (click)="deleteContact(contact.id)">Delete</button>
+  </div>
+</div>

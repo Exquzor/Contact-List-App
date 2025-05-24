@@ -1,0 +1,27 @@
+.header {
+  background-color: #323d45;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+  .header button {
+    margin-left: 10px;
+    background-color: #53adb5;
+    color: white;
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+
+    .header button:hover {
+      background-color: #3e8187;
+    }
+
+.router-outlet-container {
+  padding: 20px;
+}

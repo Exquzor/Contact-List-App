@@ -1,0 +1,76 @@
+.contacts-container {
+  padding: 20px;
+}
+
+  .contacts-container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 45%;
+  }
+
+.contacts-actions {
+  margin-bottom: 20px;
+}
+
+  .contacts-actions button {
+    margin-left: 10px;
+    background-color: #53adb5;
+    color: white;
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+
+    .contacts-actions button:hover {
+      background-color: #3e8187;
+    }
+
+.contacts-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+  .contacts-list li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #808080;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+    .contacts-list li:hover {
+      background-color: #909090;
+    }
+
+.contact-info {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.contact-actions button {
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+  .contact-actions button.edit {
+    background-color: #2196F3; /* Blue background for edit button */
+  }
+
+    .contact-actions button.edit:hover {
+      background-color: #1E88E5; /* Darker blue on hover */
+    }
+
+  .contact-actions button.delete {
+    background-color: #f44336; /* Red background for delete button */
+  }
+
+    .contact-actions button.delete:hover {
+      background-color: #e53935; /* Darker red on hover */
+    }

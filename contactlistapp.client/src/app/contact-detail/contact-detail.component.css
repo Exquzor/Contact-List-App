@@ -1,0 +1,81 @@
+.contact-details-container {
+  padding: 20px;
+}
+
+  .contact-details-container h2 {
+    margin-bottom: 20px;
+    margin-left: 45%;
+    font-size: 24px;
+  }
+
+  .contact-details-container button.back {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: #53adb5;
+    color: white;
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+
+    .contact-details-container button.back:hover {
+      background-color: #3e8187;
+    }
+
+.contact-info {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #232323;
+  border-radius: 10px;
+  background-color: #d4d4d4;
+}
+
+  .contact-info div {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  .contact-info strong {
+    color: #333;
+  }
+
+.contact-actions {
+  display: flex;
+  gap: 10px;
+}
+
+  .contact-actions button {
+    margin-left: 10px;
+    background-color: #53adb5;
+    color: white;
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+
+    .contact-actions button:hover {
+      background-color: #45a049;
+    }
+
+    .contact-actions button.edit {
+      background-color: #2196F3;
+    }
+
+      .contact-actions button.edit:hover {
+        background-color: #1E88E5;
+      }
+
+    .contact-actions button.delete {
+      background-color: #f44336;
+    }
+
+      .contact-actions button.delete:hover {
+        background-color: #e53935;
+      }

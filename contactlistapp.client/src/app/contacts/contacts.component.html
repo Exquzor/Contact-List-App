@@ -1,0 +1,18 @@
+<div class="contacts-container">
+  <h2>Contact List</h2>
+  <div class="contacts-actions">
+    <button *ngIf="loggedIn" (click)="addContact()">Add new contact</button>
+    <button (click)="loadContacts()">Refresh contacts</button>
+  </div>
+  <ul class="contacts-list">
+    <li *ngFor="let contact of contacts">
+      <div class="contact-info" (click)="viewContact(contact.id)">
+        {{ contact.firstName }} {{ contact.lastName }}
+      </div>
+      <div class="contact-actions">
+        <button *ngIf="loggedIn" class="edit" (click)="editContact(contact.id); $event.stopPropagation()">Edit</button>
+        <button *ngIf="loggedIn" class="delete" (click)="deleteContact(contact.id); $event.stopPropagation()">Delete</button>
+      </div>
+    </li>
+  </ul>
+</div>
